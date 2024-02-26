@@ -22,7 +22,7 @@ is_playing = False
 async def on_ready():
 	print(f'Logged in as {bot.user}')
 
-# Modify the 'play' function to check for queued URLs
+# !Play command 
 @bot.command()
 async def play(ctx, url: str):
 	global is_playing
@@ -54,3 +54,4 @@ async def play(ctx, url: str):
 
 # Run the bot
 bot.run(TOKEN)
+
