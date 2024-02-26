@@ -10,21 +10,21 @@
 
 This project require Python 3 :
 
-    > sudo apt install python3
+    sudo apt install python3
 
 You also need git installed to download youtube_dl library :
 
-    > sudo apt install git
+    sudo apt install git
 
 ### Python dependencies :
 
 I recommend installing them in a virtual environment (you can choose any name you want for the 4th argument):
 
-    > python -m venv myenv
+    python3 -m venv myenv
 
 Each time you need to start using the bot, you must activate your environment with this command:
     
-    > source myenv/bin/activate
+    source myenv/bin/activate
 
 After this, you may see your environment name in your terminal.
 
@@ -33,22 +33,22 @@ After this, you may see your environment name in your terminal.
 ### Discord.py :
 Needed to use Discord API
 
-	> pip install discord.py discord    
+	pip install discord.py discord    
 
 ### Youtube_dl :
 Used to download Youtube musics
 
-	> pip install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
+	pip install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
 
 ### PyNaCl :
 Used by Youtube_dl
 
-	> pip install PyNaCl
+	pip install PyNaCl
 
 ### Dot-env :
 Needed to add the discord bot token in the .env file
 
-	> pip install python-dotenv
+	pip install python-dotenv
 
 # Create your bot :
 
@@ -72,7 +72,7 @@ Now you need to create your bot
 
 Now with your python env selected, you can run the main.py with the following command :
 
-    > python main.py
+    python main.py
 
 After this your bot must be connected, you just need to connect a voice chanel an type in a discord text chanel : !play [Youtube URL]
 
