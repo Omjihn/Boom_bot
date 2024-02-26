@@ -33,17 +33,22 @@ After this, you may see your environment name in your terminal.
 ### Discord.py :
 Needed to use Discord API
 
-    > pip install discord.py discord    
+	> pip install discord.py discord    
 
 ### Youtube_dl :
 Used to download Youtube musics
 
-    > pip install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
+	> pip install --upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
+
+### PyNaCl :
+Used by Youtube_dl
+
+	> pip install PyNaCl
 
 ### Dot-env :
 Needed to add the discord bot token in the .env file
 
-    > pip install python-dotenv
+	> pip install python-dotenv
 
 # Create your bot :
 
